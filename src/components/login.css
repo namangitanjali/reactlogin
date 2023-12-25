@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #4e7be4;
+  background: linear-gradient(#0b48d6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.212);
+  position: relative;
+  overflow: hidden;
+  width: 850px;
+  max-width: 100%;
+  min-height: 500px;
+}
+
+.container span {
+  font-size: 12px;
+}
+
+.container a {
+  color: #333;
+  font-size: 13px;
+  text-decoration: none;
+  margin: 15px 0 10px;
+}
+
+.container h1 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+.container button {
+  background-color: #6c8fe1;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 45px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+}
+
+.option span {
+  letter-spacing: 0.6px;
+}
+.option span a {
+  text-decoration: #0b48d6;
+}
+
+.container form {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  height: 100%;
+}
+
+.container input {
+  background-color: #eee;
+  border: none;
+  margin: 10px 0;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  outline: none;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.sign-in {
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+.partition {
+  margin-top: 9px;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons a {
+  border: 1px solid #cccccc52;
+  border-radius: 60%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3px;
+  width: 50px;
+  height: 40px;
+}
+
+.toggle-container {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.toggle {
+  height: 100%;
+  background-image: url("diana.png");
+  background-size: cover;
+  background-position: center;
+}
